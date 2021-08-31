@@ -1,0 +1,129 @@
+body{
+    background-color: #35363a	
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+}
+.main {
+    margin-top: 10px;
+    padding-right: 9px;
+    display: flex;  
+    align-items: baseline;
+}
+.mainitems button {
+    padding: 0;
+    border: none;
+    background: none;
+}
+.mainitem2 button {
+    width: 35px;
+    height: 35px;
+    border-radius: 100px;
+    background:darkslategray;
+    color: white; 
+}
+.mainitem1 button:hover {
+      text-decoration: underline;    
+}
+.mainitems button img {
+    background-color: white;
+}
+.mainitems {
+    margin: 10px;
+    color:white
+}   
+
+
+article {
+    text-align: center;
+}
+
+article>h1{
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.inputwithicon {
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.inputwithicon input[type=search] {
+    border-radius: 35px;
+    width: 550px;
+    height: 45px;
+    padding-left: 55px;
+}
+.first {
+    font-size: 14px;
+    color:#5f6367;
+    position: relative;
+    left: 40px;
+    top: 1px;
+}
+.second {   
+    color: violet;
+}
+
+.inputwithicon button {    
+    position: relative;
+    right: 40px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.footercontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.footeritemadd {    
+    display: flex;
+}
+    
+.footeritem {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100px;
+    /* background: chartreuse; */
+}
+.footeritem:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+
+}
+
+.footeritem2add {
+    display: flex;
+}
+
+.footeritem2 {
+    /* border: 2px solid red; */
+    height: 100px;
+    width: 100px;
+    /* background: chocolate; */
+}
+.footeritem2:hover {
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.3);
+}
+.footeritem button, .footeritem2 button {
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.footername {
+    color: white;
+}
